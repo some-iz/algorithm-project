@@ -36,6 +36,6 @@ export default {
     transform: translateY(-2px);
 }
 h5,h6{
-    font-family: 'iransans';
-}
+    font-family: 'iranSans';
+} 
 </style>

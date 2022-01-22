@@ -1,25 +1,28 @@
 <template>
   <div class="home bg-dark">
-    <navbar></navbar>
-    <container></container>
+    <Navbar></Navbar>
+    <Container></Container>
   </div>
 </template>
 
 <script>
-import Container from '../components/Container.vue';
-  import Navbar from '../components/Navbar.vue'
-  export default {
-    name: 'Home',
-    components: {
-      Navbar,
-      Container,
-    },
+import Container from '../components/Container2'
+import Navbar from '../components/Navbar'
+export default {
+  name: 'Home',
+  components: {
+    Navbar,
+    Container,
+  },
   }
 </script>
-<style scoped>
+<style>
 .home{
   display: flex;
   flex-direction: column;
   min-height: 100%;
+}
+html{
+  scrollbar-width: thin;
 }
 </style>
